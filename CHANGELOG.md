@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.1 — 2026-09-09
+
+### Added
+
+- Added a localized one-sentence feature description for the shared RightMenu
+  plugin detail template.
+
 ## 1.0.0 — 2026-09-09
 
 ### Added

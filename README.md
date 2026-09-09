@@ -4,7 +4,7 @@ RightMenu 的独立“桌面文件”插件。它在桌面背景和 Finder 的�
 
 ## 版本
 
-- 插件：`1.0.0`
+- 插件：`1.0.1`
 - 最低宿主插件 API：`1.3`
 
 ## 当前架构与设计意图
@@ -38,4 +38,4 @@ npm run verify
 
 ## 安装
 
-构建后双击 `dist/DesktopItems.rightmenuplugin`，或在 RightMenu 的插件设置页导入。签名安装后能力默认授权，菜单可立即使用；用户仍可在插件设置中撤销权限、停用或删除插件。
+构建后双击 `dist/DesktopItems.rightmenuplugin`，或在 RightMenu 的插件设置页导入。签名安装后能力默认授权，菜单可立即使用；用户可随时停用或删除插件。

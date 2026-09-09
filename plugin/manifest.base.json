@@ -2,7 +2,17 @@
   "schemaVersion": 1,
   "id": "com.rightmenu.plugin.desktop-items",
   "name": "Desktop Items",
-  "version": "1.0.0",
+  "description": "Hides or restores Desktop items with a reversible, host-protected action.",
+  "localizedDescriptions": {
+    "en": "Hides or restores Desktop items with a reversible, host-protected action.",
+    "zh-Hans": "通过宿主保护的可恢复操作隐藏或显示桌面文件。",
+    "zh-Hant": "透過宿主保護的可復原操作隱藏或顯示桌面項目。",
+    "ja": "ホストが保護する復元可能な操作で、デスクトップ項目を隠す、または表示します。",
+    "ko": "호스트가 보호하는 복구 가능한 동작으로 데스크탑 항목을 가리거나 표시합니다.",
+    "de": "Blendet Schreibtischobjekte mit einer geschützten, umkehrbaren Host-Aktion aus oder ein.",
+    "fr": "Masque ou affiche les éléments du bureau avec une action réversible protégée par l’hôte."
+  },
+  "version": "1.0.1",
   "apiVersion": "1.3",
   "runtime": {
     "kind": "javascript",
