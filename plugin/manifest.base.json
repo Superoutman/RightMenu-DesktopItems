@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "com.rightmenu.plugin.desktop-items",
+  "name": "Desktop Items",
+  "version": "1.0.0",
+  "apiVersion": "1.3",
+  "runtime": {
+    "kind": "javascript",
+    "entrypoint": "main.js"
+  },
+  "permissions": [
+    {
+      "capability": "desktopItems.toggleVisibility",
+      "reason": "Allows this action to hide or restore items on the Desktop through the host-controlled reversible visibility service.",
+      "localizedReasons": {
+        "en": "Allows this action to hide or restore items on the Desktop through the host-controlled reversible visibility service.",
+        "zh-Hans": "允许此操作通过宿主管理的可恢复服务隐藏或还原桌面文件。",
+        "zh-Hant": "允許此操作透過宿主管理的可復原服務隱藏或還原桌面項目。",
+        "ja": "ホスト管理の復元可能なサービスを通じて、デスクトップ項目を隠す、または復元します。",
+        "ko": "호스트가 관리하는 복구 가능한 서비스를 통해 데스크탑 항목을 가리거나 복원합니다.",
+        "de": "Erlaubt dieser Aktion, Schreibtischobjekte über den vom Host kontrollierten, umkehrbaren Dienst auszublenden oder wiederherzustellen.",
+        "fr": "Autorise cette action à masquer ou restaurer les éléments du bureau via le service réversible contrôlé par l’hôte."
+      }
+    }
+  ],
+  "actions": [
+    {
+      "id": "toggle-visibility",
+      "title": "Hide Desktop Items",
+      "finderContexts": ["container"],
+      "finderLocations": ["desktop"],
+      "localizedTitles": {
+        "en": "Hide Desktop Items",
+        "zh-Hans": "隐藏桌面文件",
+        "zh-Hant": "隱藏桌面項目",
+        "ja": "デスクトップ項目を隠す",
+        "ko": "데스크탑 항목 가리기",
+        "de": "Schreibtischobjekte ausblenden",
+        "fr": "Masquer les éléments du bureau"
+      },
+      "booleanTitleState": {
+        "capability": "desktopItems.toggleVisibility",
+        "trueTitle": "Show Desktop Items",
+        "localizedTrueTitles": {
+          "en": "Show Desktop Items",
+          "zh-Hans": "显示桌面文件",
+          "zh-Hant": "顯示桌面項目",
+          "ja": "デスクトップ項目を表示",
+          "ko": "데스크탑 항목 보기",
+          "de": "Schreibtischobjekte einblenden",
+          "fr": "Afficher les éléments du bureau"
+        }
+      }
+    }
+  ],
+  "uiContributions": []
+}
