@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.2 — 2026-09-09
+
+### Changed
+
+- Restored the original pre-separation feature description, which explains
+  where the Hide or Show Desktop Items command appears.
+
 ## 1.0.1 — 2026-09-09
 
 ### Added

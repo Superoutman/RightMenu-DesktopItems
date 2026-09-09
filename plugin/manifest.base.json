@@ -2,17 +2,17 @@
   "schemaVersion": 1,
   "id": "com.rightmenu.plugin.desktop-items",
   "name": "Desktop Items",
-  "description": "Hides or restores Desktop items with a reversible, host-protected action.",
+  "description": "Adds a Hide or Show Desktop Items command to the desktop background and Desktop folder.",
   "localizedDescriptions": {
-    "en": "Hides or restores Desktop items with a reversible, host-protected action.",
-    "zh-Hans": "通过宿主保护的可恢复操作隐藏或显示桌面文件。",
-    "zh-Hant": "透過宿主保護的可復原操作隱藏或顯示桌面項目。",
-    "ja": "ホストが保護する復元可能な操作で、デスクトップ項目を隠す、または表示します。",
-    "ko": "호스트가 보호하는 복구 가능한 동작으로 데스크탑 항목을 가리거나 표시합니다.",
-    "de": "Blendet Schreibtischobjekte mit einer geschützten, umkehrbaren Host-Aktion aus oder ein.",
-    "fr": "Masque ou affiche les éléments du bureau avec une action réversible protégée par l’hôte."
+    "en": "Adds a Hide or Show Desktop Items command to the desktop background and Desktop folder.",
+    "zh-Hans": "在桌面空白处和 Finder 的桌面文件夹中添加隐藏或显示桌面文件的菜单。",
+    "zh-Hant": "在桌面背景與 Finder 的「桌面」資料夾中加入隱藏或顯示桌面項目的指令。",
+    "ja": "デスクトップの背景と「デスクトップ」フォルダに、デスクトップ項目を隠す／表示するコマンドを追加します。",
+    "ko": "데스크탑 배경과 데스크탑 폴더에 항목을 가리거나 표시하는 명령을 추가합니다.",
+    "de": "Fügt auf dem Schreibtischhintergrund und im Ordner „Schreibtisch“ einen Befehl zum Ein- oder Ausblenden der Schreibtischobjekte hinzu.",
+    "fr": "Ajoute une commande permettant de masquer ou d’afficher les éléments sur le fond d’écran et dans le dossier Bureau."
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "apiVersion": "1.3",
   "runtime": {
     "kind": "javascript",
