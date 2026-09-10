@@ -36,6 +36,12 @@ npm run verify
 
 私钥仅保存在被 Git 忽略的 `.keys/`，不要提交或分享。
 
+准备 GitHub Release 时运行 `npm run release:prepare`。它会完成签名验证，并同时生成
+带版本号和固定名称的两个相同 ZIP；完整流程见 [RELEASING.md](RELEASING.md)。
+
 ## 安装
 
 构建后双击 `dist/DesktopItems.rightmenuplugin`，或在 RightMenu 的插件设置页导入。签名安装后能力默认授权，菜单可立即使用；用户可随时停用或删除插件。
+
+最新正式版本也可从固定地址下载：
+[RightMenu-DesktopItems.zip](https://github.com/Superoutman/RightMenu-DesktopItems/releases/latest/download/RightMenu-DesktopItems.zip)。

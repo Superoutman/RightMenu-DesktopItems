@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased
+
+### Changed
+
+- Added a repeatable Release packaging command that emits both versioned and
+  stable-name ZIP assets for permanent download links.
+- Documented the two-asset GitHub Release and post-publish verification flow.
+
 ## 1.0.2 — 2026-09-09
 
 ### Changed

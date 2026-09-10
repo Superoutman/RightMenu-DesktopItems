@@ -8,6 +8,7 @@
     "build": "node scripts/build.mjs",
     "build:signed": "node scripts/build.mjs --signed",
     "keygen": "node scripts/generate-signing-key.mjs",
+    "release:prepare": "npm run verify && node scripts/package-release.mjs",
     "typecheck": "tsc --noEmit",
     "test": "npm run typecheck && node --import tsx --test tests/*.test.ts",
     "verify:host": "node scripts/verify-host.mjs",
